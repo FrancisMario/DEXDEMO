@@ -1,0 +1,80 @@
+CREATE TABLE `dex_bookings`.`corporate_clients` 
+( `table_id` INT NOT NULL AUTO_INCREMENT ,
+ `client_id` TEXT NOT NULL ,
+  `client_name` VARCHAR(30) NOT NULL ,
+   `client_address` VARCHAR(60) NOT NULL ,
+    `client_email` VARCHAR(30) NOT NULL ,
+     `client_tel` INT NOT NULL ,
+ PRIMARY KEY (`table_id`)) ENGINE = InnoDB;
+
+
+
+ INSERT INTO `delivery_reciepts` (`table_id`, `client_id`, `delivery_id`, `date`, `amount`) VALUES (NULL, '', '', '', '')
+
+
+  row: [{
+            table_id: '0',
+            sender_name: 'MArio',
+            sender_contact: 100,
+            destination: 6,
+            recipient_contact: 0,
+            status: "PENDING",
+            state: false
+          },
+          {
+            table_id: '0',
+            sender_name: 'Mareio',
+            sender_contact: 100,
+            destination: 6,
+            recipient_contact: 0,
+            status: "PENDING",
+            state: false
+          },
+          {
+            table_id: '0',
+            sender_name: 'dsad',
+            sender_contact: 100,
+            destination: 6,
+            recipient_contact: 0,
+            status: "PENDING",
+            state: false
+          },
+          {
+            table_id: '0',
+            sender_name: 'ds',
+            sender_contact: 100,
+            destination: 6,
+            recipient_contact: 0,
+            status: "PENDING",
+            state: false
+          },
+          {
+            table_id: '0',
+            sender_name: 'fs',
+            sender_contact: 100,
+            destination: 6,
+            recipient_contact: 0,
+            status: "PENDING",
+            state: false
+          },
+          {
+            table_id: '0',
+            sender_name: 'fed',
+            sender_contact: 100,
+            destination: 6,
+            recipient_contact: 0,
+            status: "PENDING",
+            state: false
+          },
+          {
+            table_id: '0',
+            sender_name: 'ewe',
+            sender_contact: 100,
+            destination: 6,
+            recipient_contact: 0,
+            status: "PENDING",
+            state: false
+          },
+        ]
+
+        
