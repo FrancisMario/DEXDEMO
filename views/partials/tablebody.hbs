@@ -1,0 +1,32 @@
+{{#each row}}
+<tbody>
+    <tr class="odd gradeX">
+        <td>{{table_id}}</td>
+        <td>{{sender_name}}</td>
+        <td>{{sender_contact}}</td>
+        <td class="center">{{destination}}</td>
+        <td class="center">{{recipient_contact}}</td>
+        <td class="center">{{status}}</td>
+        <td class="center">
+            {{!-- {{> options}} --}}
+            <div class="btn-group">
+                {{#if state}}
+                <button class="btn confirm_delivery btn-success">Confirm</button>
+                {{/if}}
+                {{#unless state}}
+                    <button class="btn confirm_delivery btn-info">Options</button>
+                {{/unless}}
+                <button data-toggle="dropdown" class="btn btn-success dropdown-toggle"><span
+                        class="caret"></span></button>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Details</a></li>
+                    <li><a href="#">Cancel</a></li>
+                    {{!-- <li><a href="#">Something else here</a></li> --}}
+                    {{!-- <li class="divider"></li> --}}
+                    {{!-- <li><a href="#">Separated link</a></li> --}}
+                </ul>
+            </div>
+        </td>
+
+    </tr>
+    {{/each}}

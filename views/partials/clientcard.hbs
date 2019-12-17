@@ -1,0 +1,71 @@
+<div class="col-md-4">
+    <!-- Widget: user widget style 1 -->
+    <div class="box box-widget widget-user">
+        <!-- Add the bg color to the header using any of the bg-* classes -->
+        <div class="widget-user-header bg-aqua-active">
+            <h3 class="widget-user-username">{{client_name}}</h3>
+            <!-- <h5 class="widget-user-desc">admin</h5> -->
+        </div>
+        <div class="widget-user-image">
+            {{!-- <img class="img-circle" src="{{client_image_url}}" alt="User Avatar"> --}}
+        </div>
+        <div class="box-footer">
+            <!-- /.col -->
+            <div class="col-sm-4 border-right hover">
+                <div class="description-block">
+                    <h5 class="description-header">{{total}}</h5>
+                    <span class="description-text">Total Deliveries</span>
+                </div>
+            </div>
+            <div class="col-sm-4 border-left left hover">
+                <div class="description-block">
+                    <h5 class="description-header">{{pending}}</h5>
+                    <span class="description-text">Pending Deliveries</span>
+
+                </div>
+                <!-- /.description-block -->
+
+            </div>
+            <div class="col-sm-4 border-right right padding hover">
+                <button id="{{client_id}}" class="delivery btn btn-success"><i class=" fa fa-truck"></i>Delivery</button>
+                <button id="{{client_id}}" class="info btn btn-info"><i class="fa fa-info-circle "></i>Info      .</button>
+                <button id="{{client_id}}" class="settings btn btn-default"><i class=" fa fa-cog "></i>Setting</button>
+                
+                {{!-- <i id="{{client_id}}" class="card delivery fa fa-truck fa-3x"></i>
+                <i id="{{client_id}}" class="card info fa fa-info-circle fa-3x"></i>
+                <i id="{{client_id}}" class="card settings fa fa-cog fa-3x"></i> --}}
+                {{!-- <button id="add_delivery" class="btn padding">New Delivery</button>
+                <button class="btn padding">Deliveries</button>
+                <button id="settings" class="btn">Settings</button> --}}
+
+            </div>
+            <!-- /.row -->
+        </div>
+    </div>
+</div>
+{{!-- 
+
+    <div class="col-md-4">
+        <!-- Widget: user widget style 1 -->
+        <div class="box box-widget widget-user">
+            <!-- Add the bg color to the header using any of the bg-* classes -->
+            <div class="widget-user-header bg-aqua-active">
+                <h3 class="widget-user-username">Gamtel HQ</h3>
+                <!-- <h5 class="widget-user-desc">admin</h5> -->
+            </div>
+            <div class="widget-user-image">
+                <img class="img-circle" src="assets/images/user7-128x128.jpg" alt="User Avatar">
+            </div>
+            <div class="box-footer">
+                <!-- /.col -->
+                <div class="col-sm-4 border-right hover">
+                    <div class="description-block">
+                        <h5 class="description-header">13,000</h5>
+                        <span class="description-text">FOLLOWERS</span>
+                    </div>
+                    <!-- /.description-block -->
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+    </div> --}}
