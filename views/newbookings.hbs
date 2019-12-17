@@ -1,0 +1,55 @@
+<div class="page-inner">
+        <div class="row container"> 
+                <div class="col-md-10 col-ms-12 col-lg-10">
+                  <form action="/book-delivery" id="submit" method="post" class="bg-white rounded pb_form_v1 ">
+                    <h2 class="mb-4 mt-0 text-center">Book A New Delivery</h2>
+                    <label>Sender Details</label>
+                    <div class="form-group">
+                      <input type="text" name="sender_name" class="form-control pb_height-50 reverse" placeholder="Name *">
+                    </div>
+                    <div class="form-group">
+                      <input type="text" name="pickup_address" class="form-control pb_height-50 reverse" placeholder="Address *">
+                    </div>
+                    <div class="form-group">
+                      <input type="text" name="sender_contact[phone]" class="form-control pb_height-50 reverse" placeholder="contact phone *">
+                    </div>
+                    <div class="form-group">
+                      <input type="text" name="sender_contact[email]" class="form-control pb_height-50 reverse" placeholder="Email *">
+                    </div>
+                    <div class="form-group">
+                      <input type="Date" name="pickup_date" class="form-control pb_height-50 reverse" placeholder="Pickup Date *">
+                    </div>
+                    <div class="form-group">
+                      <input type="Time" name="pickup_time" class="form-control pb_height-50 reverse" placeholder="Pickup Time *">
+                    </div>
+                    <div class="form-group">
+                      <label for="pkg_size">Package Details</label>
+                      <select name="package_size" class="form-control pb_height-50 reverse">
+                        <option value="small">Small</option>
+                        <option value="medium">Medium</option>
+                        <option value="large">Large</option>
+                        <option value="extra-large">Extra Large</option>
+                      </select>
+                      <hr>
+                      <textarea name="package_description" placeholder="Package Details*" class="form-control pb_height-50 reverse" rows="3"></textarea>
+                    </div>
+                    <label for="">Reciepient Details</label>
+                    <div class="form-group">
+                      <input type="text" name="recipient_name" class="form-control pb_height-50 reverse" placeholder="Reciepients Name *">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="recipient_contact[phone]" class="form-control pb_height-50 reverse" placeholder="Reciepients Contact *">
+                      </div>
+                      <div class="form-group">
+                        <input type="text" name="recipient_contact[email]" class="form-control pb_height-50 reverse" placeholder="Reciepients Email *">
+                      </div>
+                    <div class="form-group">
+                        <input type="text" name="recipient_location" class="form-control pb_height-50 reverse" placeholder="Reciepients Location *">
+                      </div>
+                    <div class="form-group">
+                      <input type="submit" class="btn btn-primary btn-lg btn-block pb_btn-pill  btn-shadow-blue" value="Book Delivery">
+                    </div>
+                  </form>
+                </div>
+          </div>
+    </div>
